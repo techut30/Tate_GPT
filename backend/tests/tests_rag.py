@@ -1,7 +1,7 @@
 from backend.rag.retriever import search
 from backend.llm.llm_client import build_prompt, query_llm
 
-question = "Whiskey or black coffee?"
+question = "what is money?"
 results = search(question, top_k=4)
 
 chunks = [text for text, _ in results]
