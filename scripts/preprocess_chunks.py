@@ -6,8 +6,8 @@ from typing import List
 from tqdm import tqdm
 
 # Config
-RAW_DIR = Path("/Users/uttakarsh/Desktop/Tate/data/raw")
-OUT_DIR = Path("/Users/uttakarsh/Desktop/Tate/data/processed")
+RAW_DIR = Path("/Users/uttakarsh/Desktop/GPT Tate/data/raw")
+OUT_DIR = Path("/Users/uttakarsh/Desktop/GPT Tate/data/processed")
 CHUNK_SIZE = 500  # approx chars per chunk
 CHUNK_OVERLAP = 100  # overlapping characters between chunks
 

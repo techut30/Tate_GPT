@@ -20,7 +20,7 @@ TWITTER_PASSWORD = "Iamthebest.30"
 TARGET_HANDLE = "Cobratate"
 
 # Directory to save tweets
-RAW_DIR = "/Users/uttakarsh/Desktop/Tate/data/raw"
+RAW_DIR = "/Users/uttakarsh/Desktop/GPT Tate/data/raw"
 os.makedirs(RAW_DIR, exist_ok=True)
 
 def sanitize_filename(text, length=30):

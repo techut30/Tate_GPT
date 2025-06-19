@@ -4,7 +4,7 @@ from youtube_transcript_api import YouTubeTranscriptApi
 from youtube_transcript_api._errors import NoTranscriptFound, TranscriptsDisabled, VideoUnavailable
 from youtubesearchpython import VideosSearch
 
-RAW_DIR = "/Users/uttakarsh/Desktop/Tate/data/raw"
+RAW_DIR = "/Users/uttakarsh/Desktop/GPT Tate/data/raw"
 os.makedirs(RAW_DIR, exist_ok=True)
 
 SEARCH_TERMS = [

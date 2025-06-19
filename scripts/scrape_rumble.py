@@ -14,7 +14,7 @@ CHANNELS = {
     "TateSpeech": "https://rumble.com/c/TateSpeech",
     "TateConfidential": "https://rumble.com/c/tateconfidential"
 }
-RAW_DIR = "/Users/uttakarsh/Desktop/Tate/data/raw"
+RAW_DIR = "/Users/uttakarsh/Desktop/GPT Tate/data/raw"
 os.makedirs(RAW_DIR, exist_ok=True)
 MAX_VIDEOS = 90
 
